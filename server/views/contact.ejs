@@ -1,0 +1,44 @@
+<%- include partials/header.ejs %>
+
+    <%- include partials/main_nav.ejs %>
+
+        <!-- Main Content -->
+        <main class="container">
+            <!-- Contact ways -->
+            <div class="contact_contents">
+                <p>
+                    <a href="tel:705-539-0866">Phone: 7055390866 </a>
+                    <br>
+                    <br>
+                    <a href="mailto: dkhadka2@my.centennialcollege.ca">Email: dkhadka2@my.centennialcollege.ca</a>
+                    <br>
+                    <br>
+                        Address: 162 Oakridge Drive, Scarborough, ON</a>
+                    <br>
+                    <br>
+                <h2 id="click">You can contact me through: </h2>
+                </p>
+            </div>
+            <!-- Contact ways -->
+            <!-- Contact infomation -->
+            <div class="contact_input">
+                <form action="/home">
+                    <input type="text" placeholder="First Name" name="first">
+                    <input type="text" placeholder="Last Name" name="last">
+                    <br>
+                    <input type="text" placeholder="Phone Number" name="phone">
+                    <input type="text" placeholder="Email Address" name="email">
+                    <br>
+                    <textarea placeholder=" Write your message" name="message" id="message" cols="30"
+                        rows="10"></textarea>
+                    <br>
+                    <input id="sub_button" type="submit" value="Submit">
+                </form>
+            </div>
+            <!-- Contact infomation -->
+        </main>
+        <!-- Main Content -->
+
+        <%- include partials/bottom_nav.ejs %>
+
+            <%- include partials/footer.ejs %>
